@@ -145,6 +145,8 @@ button:focus {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
+    text-align: center;
+    width: 100%;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -183,6 +185,9 @@ button:focus {
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+  display: inline-block; /* Display the navbar items as inline-block */
+  margin: 0 auto; /* Center the navbar items */
+  float: none; /* Remove any previous float */
 }
 
 .navbar-nav .nav-item a {
@@ -623,7 +628,19 @@ button:focus {
   padding-left: 15px;
   margin-right: 10px;
   margin-left: 10px;
+  display: inline-block !important;
+  padding: 0 10px; /* Adjust padding for both sides */
+  margin-bottom: 10px; /* Add margin bottom to separate rows */
 }
+
+@media screen and (max-width: 600px) {
+  .contact-icons {
+    display: block; /* Change display to block for stacking icons */
+    margin: 0 auto 10px; /* Center icons and add margin bottom */
+    max-width: 100px; /* Limit width to prevent stretching */
+  }
+}
+
 
 .icon-colour {
   color: #700c86 !important;
