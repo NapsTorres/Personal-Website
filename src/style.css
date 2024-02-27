@@ -154,14 +154,14 @@ button:focus {
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
-  display: flex; /* Make the brand a flex container */
-  align-items: center; /* Align items vertically */
+  display: flex; 
+  align-items: center; 
 }
 
 .logo {
-  height: 3em !important; /* Increase the height */
-  width: auto !important; /* Allow the width to adjust automatically */
-  margin-right: 10px; /* Add margin to separate the logo from other content */
+  height: 3em !important; 
+  width: auto !important; 
+  margin-right: 10px; 
 }
 
 
@@ -185,9 +185,9 @@ button:focus {
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
-  display: inline-block; /* Display the navbar items as inline-block */
-  margin: 0 auto; /* Center the navbar items */
-  float: none; /* Remove any previous float */
+  display: inline-block; 
+  margin: 0 auto; 
+  float: none; 
 }
 
 .navbar-nav .nav-item a {
@@ -219,10 +219,10 @@ button:focus {
 /* Home section */
 /* --------- */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation; 
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%; 
   display: inline-block;
 }
 
@@ -232,7 +232,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  } 
   20% {
     transform: rotate(-8deg);
   }
@@ -247,7 +247,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  } 
   100% {
     transform: rotate(0deg);
   }
@@ -552,6 +552,7 @@ button:focus {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
+  text-align: center;
 }
 
 .about-activity {
@@ -572,15 +573,15 @@ button:focus {
 .contact-section {
   position: relative;
   padding-top: 110px;
-  padding-bottom: 110px; /* Increase bottom padding for more space */
+  padding-bottom: 110px; 
   background-image: var(--section-background-color);
   color: white;
-  text-align: center; /* Center the content */
+  text-align: center; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Add this line to make the contact section at least as tall as the viewport */
+  min-height: 100vh; 
 }
 
 .contact-social {
@@ -607,17 +608,17 @@ button:focus {
   font-size: 2.5em;
   background: rgba(255, 255, 255, 0.972);
   border-radius: 50%;
-  transition: all 0.3s ease; /* Added transition for smooth hover effect */
+  transition: all 0.3s ease; 
 }
 
 .home-contact-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 50px #801f95; /* Increased shadow size */
+  box-shadow: 0 0 50px #801f95; 
 }
 
 .home-contact-icons:hover {
   color: #87209e;
-  box-shadow: 0 0 50px #87209e; /* Increased shadow size */
+  box-shadow: 0 0 50px #87209e; 
   text-shadow: 0 0 20px #87209e;
 }
 
@@ -629,15 +630,15 @@ button:focus {
   margin-right: 10px;
   margin-left: 10px;
   display: inline-block !important;
-  padding: 0 10px; /* Adjust padding for both sides */
-  margin-bottom: 10px; /* Add margin bottom to separate rows */
+  padding: 0 10px; 
+  margin-bottom: 10px; 
 }
 
 @media screen and (max-width: 600px) {
   .contact-icons {
-    display: block; /* Change display to block for stacking icons */
-    margin: 0 auto 10px; /* Center icons and add margin bottom */
-    max-width: 100px; /* Limit width to prevent stretching */
+    display: block; 
+    margin: 0 auto 10px;
+    max-width: 100px; 
   }
 }
 
@@ -649,5 +650,5 @@ button:focus {
 
 
 .larger-text {
-  font-size: 2em; /* Adjust the font size as desired */
+  font-size: 2em;
 }

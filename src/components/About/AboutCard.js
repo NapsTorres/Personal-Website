@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Hello, I'm <span className="purple">Napoleon Torres or Naps</span> currently studiying at{" "}
             <span className="purple">Naga College Foundation</span>, pursuing a Bachelor's degree in Information Systems.
             <br />
